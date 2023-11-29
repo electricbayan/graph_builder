@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1008</width>
+    <height>751</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="5">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>SimSun</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Choose color:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="7">
+     <widget class="QPushButton" name="erraseBtn">
+      <property name="font">
+       <font>
+        <family>SimSun</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Errase all</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="QPushButton" name="openMygraph">
+      <property name="font">
+       <font>
+        <family>SimSun</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>All graphs</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="10">
+     <widget class="QPushButton" name="optionsBtn">
+      <property name="font">
+       <font>
+        <family>SimSun</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Options</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="7" colspan="2">
+     <widget class="QPushButton" name="drawBtn">
+      <property name="font">
+       <font>
+        <family>Segoe UI Symbol</family>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Draw!</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="11">
+     <widget class="QLabel" name="imgGraphLbl">
+      <property name="minimumSize">
+       <size>
+        <width>395</width>
+        <height>295</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Image</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QComboBox" name="comboBox">
+      <property name="maximumSize">
+       <size>
+        <width>79</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>SimSun</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>red</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>black</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>green</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>blue</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>gray</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>yellow</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>pink</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>orange</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>brown</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>purple</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QLabel" name="label_2">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>45</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>SimSun-ExtB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Input your function:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" colspan="4" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label">
+      <property name="minimumSize">
+       <size>
+        <width>179</width>
+        <height>54</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>54</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Symbol</family>
+        <pointsize>24</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Graphic Builder 1.0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>SimSun</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Current graphs</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLineEdit" name="inputFunc">
+      <property name="minimumSize">
+       <size>
+        <width>283</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1008</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHints">
+    <property name="title">
+     <string>Hints</string>
+    </property>
+    <widget class="QMenu" name="menuLinear_function">
+     <property name="title">
+      <string>Linear function</string>
+     </property>
+     <addaction name="actiony_k_x_b"/>
+    </widget>
+    <widget class="QMenu" name="menuParabola">
+     <property name="title">
+      <string>Parabola</string>
+     </property>
+     <addaction name="actiony_a_x_2_b_x_c"/>
+    </widget>
+    <widget class="QMenu" name="menuHyperbola">
+     <property name="title">
+      <string>Hyperbola</string>
+     </property>
+     <addaction name="actiony_k_x_b_2"/>
+    </widget>
+    <addaction name="menuLinear_function"/>
+    <addaction name="menuParabola"/>
+    <addaction name="menuHyperbola"/>
+   </widget>
+   <addaction name="menuHints"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionHow_can_i_create_graph">
+   <property name="text">
+    <string>How can i create graph?</string>
+   </property>
+  </action>
+  <action name="actionWhere_can_i_check_graph_stats">
+   <property name="text">
+    <string>Where can i check graph stats?</string>
+   </property>
+  </action>
+  <action name="actiony_k_x_b">
+   <property name="text">
+    <string>y=k*x+b</string>
+   </property>
+  </action>
+  <action name="actiony_a_x_2_b_x_c">
+   <property name="text">
+    <string>y=a*x^2+b*x+c</string>
+   </property>
+  </action>
+  <action name="actiony_k_x_b_2">
+   <property name="text">
+    <string>y=k/x+b</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
